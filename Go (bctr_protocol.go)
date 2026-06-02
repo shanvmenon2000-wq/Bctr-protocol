@@ -1,0 +1,44 @@
+package bctr
+
+type DebtType string
+
+const (
+	Entry          DebtType = "ENTRY"
+	Continuity     DebtType = "CONTINUITY"
+	Transformation DebtType = "TRANSFORMATION"
+	Reconstruction DebtType = "RECONSTRUCTION"
+	Return         DebtType = "RETURN"
+)
+
+type Verdict string
+
+const (
+	Stable    Verdict = "STABLE"
+	Monitor   Verdict = "MONITOR"
+	Break     Verdict = "BREAK"
+	Discovery Verdict = "DISCOVERY"
+)
+
+type BCTRPacket struct {
+	Concept      string   `json:"concept"`
+	Debt         DebtType `json:"debt"`
+	Pressure     int      `json:"pressure"`
+	Verdict      Verdict  `json:"verdict"`
+	BridgePacket string   `json:"bridge_packet"`
+}
+
+func NewPacket(
+	concept string,
+	debt DebtType,
+	pressure int,
+	verdict Verdict,
+	bridge string,
+) BCTRPacket {
+	return BCTRPacket{
+		Concept:      concept,
+		Debt:         debt,
+		Pressure:     pressure,
+		Verdict:      verdict,
+		BridgePacket: bridge,
+	}
+}
