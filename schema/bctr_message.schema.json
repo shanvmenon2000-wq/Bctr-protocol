@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/shanvmenon2000-wq/Bctr-protocol/schema/bctr_message.schema.json",
+  "title": "BCTR Message",
+  "description": "A standard message packet for the BCTR Protocol.",
+  "type": "object",
+  "required": [
+    "concept",
+    "debt_type",
+    "pressure",
+    "verdict",
+    "bridge_packet"
+  ],
+  "properties": {
+    "concept": {
+      "type": "string",
+      "description": "The idea, skill, or concept being diagnosed."
+    },
+    "debt_type": {
+      "type": "string",
+      "enum": [
+        "ENTRY",
+        "CONTINUITY",
+        "TRANSFORMATION",
+        "RECONSTRUCTION",
+        "RETURN"
+      ],
+      "description": "The type of learning debt blocking progress."
+    },
+    "pressure": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4,
+      "description": "The abstraction pressure level of the concept."
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "STABLE",
+        "MONITOR",
+        "BREAK",
+        "DISCOVERY"
+      ],
+      "description": "The instructional decision after diagnosis."
+    },
+    "bridge_packet": {
+      "type": "string",
+      "description": "The recommended bridge packet or repair action."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional human-readable notes."
+    }
+  },
+  "additionalProperties": false
+}
