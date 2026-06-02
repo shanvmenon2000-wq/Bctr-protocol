@@ -1,0 +1,43 @@
+#[derive(Debug, Clone)]
+pub enum DebtType {
+    Entry,
+    Continuity,
+    Transformation,
+    Reconstruction,
+    Return,
+}
+
+#[derive(Debug, Clone)]
+pub enum Verdict {
+    Stable,
+    Monitor,
+    Break,
+    Discovery,
+}
+
+#[derive(Debug, Clone)]
+pub struct BCTRPacket {
+    pub concept: String,
+    pub debt: DebtType,
+    pub pressure: u8,
+    pub verdict: Verdict,
+    pub bridge_packet: String,
+}
+
+impl BCTRPacket {
+    pub fn new(
+        concept: String,
+        debt: DebtType,
+        pressure: u8,
+        verdict: Verdict,
+        bridge_packet: String,
+    ) -> Self {
+        Self {
+            concept,
+            debt,
+            pressure,
+            verdict,
+            bridge_packet,
+        }
+    }
+}
