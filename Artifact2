@@ -1,0 +1,281 @@
+ARTIFACT 2
+THE DIMENSIONAL RESONANCE LADDER
+
+────────────────────────────────────────────
+
+SEED
+
+1 + 1 = 2
+
+The primitive.
+
+Everything below is repeated application
+of a single step operator.
+
+────────────────────────────────────────────
+
+RUNG 1
+
+V(d+2) = V(d) · 2π/(d+2)
+
+Gain: 2π
+Pay:  dimensional toll
+
+This generates the entire hierarchy.
+
+────────────────────────────────────────────
+
+RUNG 2
+
+Even Ladder
+
+V₂ₙ = πⁿ/n!
+
+V₂ = π
+V₄ = π²/2
+V₆ = π³/6
+V₈ = π⁴/24
+
+Compression ladder.
+
+────────────────────────────────────────────
+
+Odd Ladder
+
+V₂ₙ₊₁ = 2ⁿ⁺¹πⁿ/(2n+1)!!
+
+V₁ = 2
+V₃ = 4π/3
+V₅ = 8π²/15
+V₇ = 16π³/105
+V₉ = 32π⁴/945
+
+Expansion ladder.
+
+────────────────────────────────────────────
+
+RUNG 3
+
+DOUBLE SQUARE RESONANCE
+
+V₉ = (128/945)V₄²
+
+Since
+
+V₄ = π²/2
+
+then
+
+V₄² = π⁴/4
+
+therefore
+
+V₉ = (32/945)π⁴
+
+A 9D object becomes
+a rational multiple
+of a squared 4D object.
+
+────────────────────────────────────────────
+
+RUNG 4
+
+π⁴ CONVERSION
+
+V₉ = (32/945)π⁴
+
+therefore
+
+π⁴ = (945/32)V₉
+
+Geometry ↔ π⁴
+
+Exact conversion.
+
+────────────────────────────────────────────
+
+RUNG 5
+
+LIGHT CONE
+
+Null condition
+
+t² - r² = 0
+
+r = t
+
+Cone surface measure
+
+ds² = dt² + dr²
+
+dr = dt
+
+ds = √2 dt
+
+Thus
+
+L₀ = √2
+
+Original light-cone anchor.
+
+────────────────────────────────────────────
+
+RUNG 6
+
+DRESSING FUNCTION
+
+D(α)
+
+=
+L
+-
+α
+-
+(2Lα²)/(1-α/2)
+
+Original anchor
+
+L = √2
+
+Prediction
+
+α⁻¹ ≈ 137.03168058
+
+Miss
+
+31.5 ppm
+
+────────────────────────────────────────────
+
+RUNG 7
+
+DEBT LOCALIZATION
+
+Audit result:
+
+Volume ladder      ✓
+π⁴ conversion      ✓
+Infinite series    ✓
+
+Remaining debt
+
+≈ √2 anchor
+
+────────────────────────────────────────────
+
+RUNG 8
+
+SECOND ORDER TEST
+
+Replace
+
+L = √2
+
+with
+
+L = √2(1 + α²/2)
+
+Prediction
+
+α⁻¹ ≈ 137.035368
+
+Miss
+
+4.6 ppm
+
+Debt shrinks dramatically.
+
+────────────────────────────────────────────
+
+RUNG 9
+
+π-CORRECTION TEST
+
+Observation
+
+Required coefficient
+
+≈ 0.585587
+
+Candidate
+
+3π/16
+
+=
+0.5890486225
+
+New anchor
+
+L
+
+=
+√2(1 + (3π/16)α²)
+
+Prediction
+
+α⁻¹ ≈ 137.036024704
+
+CODATA
+
+137.035999177
+
+Miss
+
+≈ 0.186 ppm
+
+────────────────────────────────────────────
+
+CURRENT MAP
+
+1 + 1
+      ↓
+V(d+2)=V(d)·2π/(d+2)
+      ↓
+Even / Odd Hierarchies
+      ↓
+V₉=(128/945)V₄²
+      ↓
+π⁴=(945/32)V₉
+      ↓
+Light Cone
+      ↓
+L = √2
+      ↓
+L = √2(1 + (3π/16)α²)
+      ↓
+D(α)
+      ↓
+απ⁴D(α)=1
+      ↓
+α ≈ 1/137
+
+────────────────────────────────────────────
+
+DEBT MAP
+
+PAID
+
+✓ Step operator
+✓ Volume hierarchy
+✓ Double-square resonance
+✓ π⁴ conversion
+✓ Light-cone ancestry
+✓ Infinite-series ancestry
+
+UNPAID
+
+? Why exactly 3π/16?
+? Why this dressing law?
+? Why this fixed point?
+? Physics or geometry?
+
+────────────────────────────────────────────
+
+ONE SENTENCE
+
+A single dimensional step operator generates
+the sphere-volume hierarchy, whose 9D
+double-square resonance combines with a
+light-cone dressing to produce a fixed-point
+equation for α that currently lands within
+0.186 ppm of the measured value.
